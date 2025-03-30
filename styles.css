@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #080707eb;
+  background-color: #070707eb;
   position: relative;
 }
 
@@ -29,8 +29,13 @@ body {
 }
 
 img {
-  height: 100%;
+  height: 90%;
   object-fit: cover;
+}
+
+.title{
+  text-align: right;
+  font-size: 25px;
 }
 
 .food-container {
@@ -46,7 +51,7 @@ img {
 h1 {
   color: var(--default-color);
   font-size: 50px;
-  color: rgb(238, 169, 39);
+  color: rgb(181, 90, 9);
   font-family: "Times New Roman", Times, serif;
   margin-right: 0;
 }
@@ -54,20 +59,20 @@ h1 {
 .menu {
   color: var(--default-color);
   font-size: 30px;
-  color: rgb(238, 169, 39);
+  color: rgb(183, 125, 16);
   font-family: "Times New Roman", Times, serif;
   margin-right: 0;
-  margin-top: 150px;
+  margin-top: 50px;
   /*border-bottom: 10px white; */
   padding-bottom: 5px;
   box-shadow: 0px 5px 2px -2px gray;
 }
 
 p {
-    color:white;
+    color:rgb(255, 255, 255);
 }
 .menu-type-title{
-    color:white;
+    color:rgb(179, 10, 10);
     font-size: 30px;
     font-weight: bold;
     margin-left: 0px;
@@ -76,22 +81,32 @@ p {
 }
 
 .food-item{
-    display: flex;
-    
     margin-bottom: 10px;
     align-items:center;
+    flex-grow:0;
+    white-space: nowrap;
 }
+
 .food-title{
-    color:white;
+    display: flex;
+    color:rgb(40, 4, 4);
     font-weight: bold;
     font-size: 20px;
 }
 
-.food-title::after{
-    content:"....................................";
+.dots{
+    flex-grow:1;
+    border-bottom: 2px dotted white;
+    
+}
+/*.food-title::after{
+    content:"..........................................";
+    flex-grow:1;
+    overflow: hidden;
     color:gray;
     font-size: large;
-}
+    white-space: nowrap; 
+} **/
 
 .food-price{
     font-size: 20px;
@@ -99,7 +114,6 @@ p {
 }
 
 .food-item-description{
-    color:white;
+    color:rgb(43, 4, 4);
     font-size: 15px;
-    margin-left: 10px;
 }
