@@ -12,7 +12,8 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="container">   
+    </div>
     <div class="angled-pattern"></div>
     <div class="image-container">
       <img src="logo_kj.png" alt="Image" />
@@ -21,28 +22,35 @@
     <h1>Check Our Tasty Menu</h1>
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-6 mb-4">
-                <div class="food-container">
+            <div class="col-">
+                <div class="card border-warning mt-4 bg-dark rounded-5 mr-4">
                     <h2 class="menu-type-title">Lunch</h2>
-                    <h3>
-                        <p>
-                            <span class="food-title">Lobster</span>
-                            <span class="food-price">$10.00</span>
-                        </p>
-                    </h3>
+                    <div class = "card-body">
+                        <div class = "food-item">
+                            <span class="food-title">#1 Lunch special</span>
+                            <span class="food-price">$12.00</span>
+                        </div>
+                        <h4 class = "food-item-description">2 pieces of fish, 6 medium shrimp, fries, roll, hush and a soda.</h4>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-6 mb-4">
-            <div class="food-container">
-                <h2 class="menu-type-title">Lunch</h2>
-                <h3>
-                    <p>
-                        <span class="food-title">Lobster</span>
-                        <span class="food-price">$10.00</span>
-                    </p>
-                </h3>
-            </div> <!--end of row--> 
-        </div>
+            <div class="col-">
+                <div class="card border-warning mt-4 bg-dark rounded-5 mr-4">
+                    <h2 class="menu-type-title">Chicken Wings</h2>
+                    <div class = "card-body">
+                        <div class = "food-item">
+                            <span class="food-title">#1 Chicken wings</span>
+                            <span class="food-price">$12.00</span>
+                        </div>
+                        <h4 class = "food-item-description">6 pieces of Chicken wings, fries and roll.</h4>
+                    <div class = "food-item">
+                            <span class="food-title">#2 Chicken wings</span>
+                            <span class="food-price">$18.00</span>
+                        </div>
+                        <h4 class = "food-item-description">10 pieces of Chicken wings, 2 sides roll.</h4>
+                    </div>
+                </div>
+        </div><!--end of row--> 
       </div>
     </div>
     <script
