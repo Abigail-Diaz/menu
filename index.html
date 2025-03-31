@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300;400;500;700&display=swap" rel="stylesheet" />
   </head>
   <body class="container">
     <!-- content -->
@@ -19,7 +20,7 @@
       <img src="logo_kj.png" alt="Logo" />
     </div>
     <div class = "title-container">
-      <h1 class="title">KJ's Fish & Chicken</h1>
+      <h1 class="title">Kay & Jay's Fish & Chicken</h1>
       <div class = "info">
         </h1>
         <div>Open</div>
@@ -48,19 +49,19 @@
             <a class="nav-link text-white" href="#lunch" onclick="collapseNavbar()">Lunch</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#dinner">Dinner</a>
+            <a class="nav-link text-white" href="#dinner" onclick="collapseNavbar()">Dinner</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#chicken">Chicken Wings & Nuggets</a>
+            <a class="nav-link text-white" href="#chicken" onclick="collapseNavbar()">Chicken Wings & Nuggets</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#pound-fish">Fish per Pound</a>
+            <a class="nav-link text-white" href="#pound-fish" onclick="collapseNavbar()">Fish per Pound</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#shrimp-oysters">Shrimp & Oysters</a>
+            <a class="nav-link text-white" href="#shrimp-oysters" onclick="collapseNavbar()">Shrimp & Oysters</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#family-packs">Family Packs</a>
+            <a class="nav-link text-white" href="#family-packs" onclick="collapseNavbar()">Family Packs</a>
           </li>
         </ul>
       </div>
@@ -73,10 +74,10 @@
     <div class="row">
       <div class="col-12 mb-4"> <!-- col-12 -->
         <!--card # 1-->
-        <div class="card border-warning mt-4 rounded-5" style = "border-radius:15px; background-color: rgba(241, 157, 12, 0.915)">
-          <div class="card-body">
+        <div class="card border-warning mt-4 rounded-5" style = "border-radius:15px; background-color: rgb(215, 144, 86)">
+          <div class="card-body" id="lunch">
             <div class="food-item">
-              <h2 class="menu-type-title" id="lunch">Lunch</h2>
+              <h2 class="menu-type-title">Lunch</h2>
               <span class="food-title">#1 Lunch Special
               <span class ="dots"></span>
               <span class="food-price">$12.00</span>
@@ -243,7 +244,7 @@
                 <span class="food-price">$29.00</span>
               </span>
             </div>
-            <h2 class="menu-type-title" id = "shrimp">Oysters</h2>
+            <h2 class="menu-type-title" id = "shrimp-oysters">Oysters</h2>
             <div class="food-item">
               <span class="food-title">Jar of Oysters
                 <span class ="dots"></span>
@@ -256,7 +257,7 @@
         <!--card # 6-->
         <div class="card border-warning mt-4 rounded-5" style = "border-radius:15px; background-color: rgb(215, 144, 86)">
         <br>
-          <h2 class="menu-type-title" id = "family-pack">Family Packs</h2>
+          <h2 class="menu-type-title" id = "family-packs">Family Packs</h2>
           <div class="card-body">
             <div class="food-item">
               <span class="food-title">#1 Family Pack
