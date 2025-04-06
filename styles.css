@@ -166,3 +166,7 @@ p {
     font-size: 15px;
 }
 
+html {
+  scroll-padding-top: 90px; /* Adjust based on your navbar height */
+}
+
