@@ -68,6 +68,7 @@ img {
   font-size: 20px;
   margin-top: 30px;
   color:black;
+  font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -127,11 +128,10 @@ p {
 }
 
 .menu-type-title{
-    color:rgb(179, 10, 10);
+    color:rgb(218, 132, 35); /*rgb(179,10,10);*/
     font-size: 25px;
     font-weight: bold;
     margin-left: 0px;
-    margin-bottom: 10px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -146,7 +146,7 @@ p {
 
 .food-title{
     display: flex;
-    color:rgb(40, 4, 4);
+    color:rgb(255, 176, 85); /*rgb(40, 4, 4);*/
     font-weight: bold;
     font-size: 20px;
 }
@@ -162,11 +162,10 @@ p {
 }
 
 .food-item-description{
-    color:rgb(43, 4, 4);
+    color:rgb(250, 246, 246);
     font-size: 15px;
 }
 
 html {
   scroll-padding-top: 90px; /* Adjust based on your navbar height */
 }
-
