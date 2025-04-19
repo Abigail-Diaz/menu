@@ -61,6 +61,7 @@ img {
   letter-spacing: 2px;
   text-transform: uppercase;
   color:black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .info{
@@ -70,6 +71,7 @@ img {
   color:black;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .food-container {
@@ -103,8 +105,8 @@ h1, .welcome-message {
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  max-width: 100%; /* Make sure it spans the entire width */
-  margin: 0 auto; /* Ensure it's centered horizontally */
+  max-width: 100%; /* span the entire width */
+  margin: 0 auto; /* center horizontally */
 }
 .welcome-message{
   color: rgb(247, 244, 241);
@@ -129,7 +131,7 @@ p {
 
 .menu-type-title{
     color:rgb(218, 132, 35); /*rgb(179,10,10);*/
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     margin-left: 0px;
     text-align: center;
@@ -167,5 +169,12 @@ p {
 }
 
 html {
-  scroll-padding-top: 90px; /* Adjust based on your navbar height */
+  scroll-padding-top: 90px; /* Adjust based on navbar height */
 }
+
+/* Make hamburger lines white */
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+

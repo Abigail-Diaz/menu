@@ -23,9 +23,10 @@
       <h1 class="title">Kay & Jay's Fish & Chicken</h1>
       <div class = "info">
         </h1>
-        <div>Open</div>
-        <div>Monday - Friday: <div></div>11:00 AM - 6:30 PM</div>
-        <div>Order for pickup: <br>(323) 891-9191</div>
+        <div>OPEN</div>
+        <div>Monday - Friday <div></div>11:00 AM - 6:30 PM</div>
+        <br>
+        <div>Order for pickup <br>(323) 891-9191</div>
       </div>
     </div>
       </h1>
@@ -61,6 +62,9 @@
           <li class="nav-item">
             <a class="nav-link text-white" href="#family-packs" onclick="collapseNavbar()">Family Packs</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#sides" onclick="collapseNavbar()">Sides</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -73,7 +77,7 @@
       <div class="col-12 mb-4"> <!-- col-12 -->
         <!--card # 1-->
         <div class="card border-warning mt-4 rounded-5" style = "border-radius:15px" id = "card1">
-          <img class="card-img-top" src="lunch.jpg" alt="lunch-image" style="border-radius: 15px 15px 0 0; height: 200px; object-fit: cover;" />
+          <img class="card-img-top" src="fish-shrimp.JPG" alt="lunch-image" style= "height: 250px; border-radius: 15px 15px 0 0; object-fit: cover;" />
           <div class="card-body" id="lunch">
             <div class="food-item">
               <h2 class="menu-type-title">Lunch</h2>
@@ -102,6 +106,7 @@
         
         <!-- Card # 2 -->
         <div class="card border-warning mt-4 rounded-5" style = "border-radius:15px" id = "card2">
+          <img class="card-img-top" src="fish.JPG" alt="lunch-image" style= "height:250px; border-radius: 15px 15px 0 0; object-fit: cover;" />
           <br>
           <h2 class="menu-type-title" id = "dinner">Dinner</h2>
           <div class="card-body">
@@ -146,6 +151,7 @@
           </div> <!-- card # 2-->
           <!-- Card # 3 -->
         <div class="card border-warning mt-4 rounded-5" style = "border-radius:15px" id = "card3">
+          <img class="card-img-top" src="chicken.JPG" alt="lunch-image" style= "height: 250px; border-radius: 15px 15px 0 0; object-fit: cover;" />
           <br>
           <h2 class="menu-type-title" id = "chicken">Chicken Wings</h2>
           <div class="card-body">
@@ -294,6 +300,74 @@
             </div> <!-- card-body # 6-->
           </div> <!-- card # 6-->
         </div> <!-- col-12 -->
+        <!--card # 7-->
+        <div class="card border-warning mt-4 rounded-5" id = "card7" style = "border-radius:15px">
+          <br>
+            <h2 class="menu-type-title" id = "sides">Sides</h2>
+            <div class="card-body">
+              <div class="food-item">
+                <span class="food-title">Small Fries
+                <span class ="dots"></span>
+                <span class="food-price">$3.00</span>
+                </span>
+              </div> <!-- food-item -->
+              <!-- Description -->
+            <div class="food-item">
+                <span class="food-title">Medium Fries
+                <span class ="dots"></span>
+                <span class="food-price">$4.00</span>
+                </span>
+              </div>
+            <div class="food-item">
+                <span class="food-title">Large Fries
+                  <span class ="dots"></span>
+                  <span class="food-price">$5.00</span>
+                </span>
+              </div>
+              <div class="food-item">
+                <span class="food-title">Small Coleslaw
+                  <span class ="dots"></span>
+                  <span class="food-price">$1.50</span>
+                </span>
+              </div>
+              <div class="food-item">
+                <span class="food-title">Large Coleslaw
+                  <span class ="dots"></span>
+                  <span class="food-price">$3.50</span>
+                </span>
+              </div>
+              <div class="food-item">
+                <span class="food-title">Hush Puppies (3 pieces)
+                  <span class ="dots"></span>
+                  <span class="food-price">$1.00</span>
+                </span>
+              </div>
+              <div class="food-item">
+                <span class="food-title">Small Potato Salad
+                  <span class ="dots"></span>
+                  <span class="food-price">$1.50</span>
+                </span>
+              </div>
+              <div class="food-item">
+                <span class="food-title">Large Potato Salad
+                  <span class ="dots"></span>
+                  <span class="food-price">$3.50</span>
+                </span>
+              </div>
+              <div class="food-item">
+                <span class="food-title">Small Macaroni Salad
+                  <span class ="dots"></span>
+                  <span class="food-price">$1.50</span>
+                </span>
+              </div>
+              <div class="food-item">
+                <span class="food-title">Large Macaroni Salad
+                  <span class ="dots"></span>
+                  <span class="food-price">$3.50</span>
+                </span>
+              </div>
+              </div> <!-- card-body # 7-->
+            </div> <!-- card # 7-->
       </div> <!-- row -->
     </div> <!-- container -->
     <img class = "shrimp" 
@@ -314,6 +388,7 @@
     document.getElementById("card4").style.backgroundColor = card_color;
     document.getElementById("card5").style.backgroundColor = card_color;
     document.getElementById("card6").style.backgroundColor = card_color;
+    document.getElementById("card7").style.backgroundColor = card_color;
     // Function to collapse the navbar after clicking a link
     function collapseNavbar() {
       const navbarCollapse = document.getElementById('navbarNav');
